@@ -1,0 +1,240 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: beige;
+}
+img,a{
+    display: block;
+}
+
+/* header */
+
+.header {
+    background-color: lightcoral;
+    padding: 2% 0 2% 0;
+
+}
+.header-text {
+    color:white;
+    margin-left: 2%;
+    line-height: 130%;
+    font-size: 120%;
+}
+.header-large-text {
+    font-size: 200%;
+}
+
+/* main */
+
+.main-container {
+   font-size: xx-large;
+   display: flex;
+   flex-direction: column;
+}
+.main-info {
+    display: flex;
+    flex-direction: row;
+}
+.required-field-text {
+    font-size: 60%;
+    margin: 2% 0 1% 2%;
+}
+.info-left {
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin: 0 5% 0 2%;
+}
+.info-right {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+#name {
+    height: 40px;
+    width: 300px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+#email {
+    height: 40px;
+    width: 300px;
+}
+.job-role-main-select {
+    display: flex;
+    flex-direction: column;
+}
+#job-role {
+    height: 40px;
+    width: 300px;
+}
+.size-and-design {
+    display: flex;
+    flex-direction: row;
+}
+.size {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+#size {
+    height: 40px;
+    width: 50px;
+}
+.design {
+    display: flex;
+    flex-direction: column;
+}
+#theme {
+    height: 40px;
+    width: 300px;
+}
+.color {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+#color {
+    height: 40px;
+    width: 377px;
+}
+#other-job {
+    height: 40px;
+    width: 500px;
+}
+.register-for-activities {
+    font-size: small;
+}
+fieldset {
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 3%;
+}
+.main-conference-select {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+}
+.img-and-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: medium;
+    margin-left: 85%;
+}
+.scondary-select-buttons {
+    width: 47%;
+}
+.img-and-price-secondary {
+    margin-left: 90%;
+}
+.scondary-select-buttons-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.programs {
+    margin: 2% 1% 0 1%;
+}
+.total {
+   margin-left: 90%;
+}
+.top-payment-section {
+    display: flex;
+    flex-direction: row;
+}
+.top-left-payment-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3% 0 1%
+}
+#payment-method {
+    width: 350px;
+    height: 30px;
+}
+#card-number {
+    width: 350px;
+    height: 30px;
+}
+.top-right-payment-section {
+    display: flex;
+    flex-direction: column;
+}
+.top-right-payment-section-top {
+    display: flex;
+    flex-direction: row;
+}
+.expiration-date {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+.expiration-year {
+    display: flex;
+    flex-direction: column;
+}
+#expiration-date {
+    width: 250px;
+    height: 40px;
+}
+#expiration-year {
+    width: 250px;
+    height: 40px;
+}
+.top-right-payment-section-bottom {
+    display: flex;
+    flex-direction: row;
+} 
+.zip-code {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+.cvv {
+    display: flex;
+    flex-direction: column;
+}
+#zip-code {
+    width: 250px;
+    height: 40px;
+}
+#cvv {
+    width: 250px;
+    height: 40px;
+}
+.bottom-payment-section {
+    display: flex;
+    flex-direction: column;
+}
+.paypal-bottom-section {
+    font-size: large;
+    background-color: white;
+    margin: 1% 1% 1% 1%;
+    padding: 0 1% 0 1%; 
+    border: 2px solid gray;
+}
+.bitcoin-bottom-section {
+    font-size: large;   
+    background-color: white;
+    margin: 1% 1% 1% 1%;
+    padding: 0 1% 0 1%; 
+    border: 2px solid gray;
+}
+.register-button {
+    font-size: large;
+    margin: 1% 1% 1% 1%;
+    width: 200px;
+    height: 50px;
+    border-radius: 4%;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bolder;
+}

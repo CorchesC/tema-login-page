@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "tema-pagina",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tema-pagina"
+	}
+}

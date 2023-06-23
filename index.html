@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header">
+        <div class = "header-text header-small-text">Register For</div>
+        <div class = "header-text header-large-text">Full Stack Conference</div>
+    </header>
+    <main class = "main-container">
+        <div class = "required-field-text">* - required field</div>
+        <section class = "main-info">
+            <section class = "info-left">
+                <section class = "basic-info">
+                        <h3 class = "basic-info-title">Basic Info</h3>
+                        <div class = "name">
+                            <label for="name">Name:*</label>
+                            <input type="text" id = "name">
+                        </div>
+                        <div class = "email">
+                            <label for="email">Email:*</label>
+                             <input type="email" id = "email">
+                        </div>  
+                        <div class = "job-role-main-select">
+                            <label for="job-role">Job Role</label>
+                            <select name="job-role-select" id="job-role">
+                                <option value="select-job-role">Select Job Role</option>
+                                <option value="front-end-developer">Front-end developer</option>
+                                <option value="software-dev">Software developer</option>
+                                <option value="project-manager">Project manager</option>
+                                <option value="seo-specialist">SEO specialist</option>
+                            </select>
+                        </div>
+                </section>
+            </section>
+            <section class = "info-right">
+                <section class = "t-shirt-info">
+                    <h3 class = "t-shirt-info-title">T-Shirt Info</h3>
+                    <div class = "size-and-design">
+                        <div class = "size">
+                            <label for="size">Size:</label>
+                            <select name="size" id="size">
+                                <option value="size-m">M</option>
+                                <option value="size-l">L</option>
+                                <option value="size-xl">XL</option>
+                                <option value="size-xxl">XXL</option>
+                            </select>
+                        </div>
+                        <div class = "design">
+                            <label for="theme">Design:</label>
+                                <select name="theme" id="theme">
+                                <option value="select-a-theme">Select Theme</option> 
+                                <option value="theme-one">Theme 1</option>
+                                <option value="theme-two">Theme 2</option>
+                                <option value="theme-three">Theme 3</option>
+                                <option value="theme-four">Theme 4</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class = "color">
+                        <label for="color">Color:</label>
+                        <select name="color" id="color">
+                            <option value="select-theme">Select a design theme above</option>
+                            <option value="black">Black</option>
+                            <option value="white">White</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="purple">Purple</option> 
+                        </select>
+                    </div>
+                </section>
+                <section class = "other-job-role">
+                    <div class = "job-role-other">
+                            <input type="text" placeholder="Other job role?" id = "other-job"> 
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class = "register-for-activities">
+            <h3 class = "activities-title">Register For Activities *</h3>
+            <fieldset class = "main-conference-select">
+                <input type="checkbox" id="checkbox" name="main-conference">
+                <label for="main-conference" class = "main-conference-label"> Main Conference</label>
+                <div class = "img-and-price">
+                    <img src="img/js.svg" alt="js" height="25px">
+                    <div price>200$</div>
+                </div>
+            </fieldset>
+            <div class = "scondary-select-buttons-list" >
+                <fieldset class = "scondary-select-buttons conference-select-java-lib-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> JavaScript Libraries Workshop</label>
+                    <div class = "programs">Tuesday 9am-12pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/react.svg" alt="react" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+                <fieldset class = "scondary-select-buttons conference-select-node-js-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> Node.js Workshop</label>
+                    <div class = "programs">Tuesday 1pm-4pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/node.svg" alt="node" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+                <fieldset class = "scondary-select-buttons conference-select-js-frameworks-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> JavaScript Frameworks Workshop</label>
+                    <div class = "programs">Tuesday 9am-12pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/angular.svg" alt="angular" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+                <fieldset class = "scondary-select-buttons conference-select-bt-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> Build tools Workshop</label>
+                    <div class = "programs">Tuesday 1pm-4pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/build.svg" alt="build" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+                <fieldset class = "scondary-select-buttons conference-select-npm-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> npm Workshop</label>
+                    <div class = "programs">Wednesday 9am-12pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/npm.svg" alt="npm" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+                <fieldset class = "scondary-select-buttons conference-select-expresss-ws">
+                    <input type="checkbox" id="checkbox" name="scondary-conference">
+                    <label for="scondary-conference" class = "scondary-conference-label"> Express Workshop</label>
+                    <div class = "programs">Wednesday 1pm-4pm</div>
+                    <div class = "img-and-price-secondary">
+                        <img src="img/express.svg" alt="express" height="25px">
+                        <div price>100$</div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class = "total" >Total: $0</div>
+        </section>
+        <section class = "payment-info">
+            <h3 class = "payment-info-title">Payment Info</h3>
+                <section class = "top-payment-section">
+                    <section class = "top-left-payment-section">
+                        <label for="payment-method">I'm going to pay with:</label>
+                        <select name="payment-method" id="payment-method">
+                            <option value="select-payment-method">Select Payment Method</option>
+                            <option value="visa-card">Visa</option>
+                            <option value="mastercard">MarsterCard</option>
+                            <option value="pay-pal">PayPal</option>
+                            <option value="bitcoin">Bitcoin</option>
+                        </select>
+                        <label for="card-number">Card Number: *</label>
+                        <input type="text" id = "card-number">
+                    </section>
+                    <section class = "top-right-payment-section">
+                        <section class = "top-right-payment-section-top">
+                            <section class = "expiration-date">
+                                 <label for="expiration-date">Expiration Date:</label>
+                            <input type="date" id = "expiration-date">
+                            </section>
+                            <section class = "expiration-year">
+                                 <label for="expiration-year">Expiration Year:</label>
+                                <input type="month" id = "expiration-year" min = "2023-06" value="2023-06">
+                            </section>
+                        </section>
+                        <section class = "top-right-payment-section-bottom"> 
+                            <section class = "zip-code">
+                                <label for="zip-code">Zip Code: *</label>
+                                <input type="number" id = "zip-code"> 
+                            </section>
+                            <section class = "cvv">
+                                <label for="cvv">CVV: *</label>
+                                <input type="number" id = "cvv">
+                            </section>
+                        </section>
+                    </section>
+                </section> 
+                <section class = "bottom-payment-section">
+                    <section class = "paypal-bottom-section">
+                        <h3 class = "pay-pal-title">Pay Pal</h3>
+                        <p class = "pay-pal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </section>
+                    <section class = "bitcoin-bottom-section">
+                        <h3 class = "bitcoin-title">Bitcoin</h3>
+                        <p class = "bitcoin-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </section>
+                    <button class = "register-button">Register</button>
+                </section>  
+             </section>
+    </main>
+</body>
+</html>
